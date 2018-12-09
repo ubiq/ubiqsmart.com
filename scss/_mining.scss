@@ -1,0 +1,18 @@
+#mp-section-1 {
+  text-align: center;
+}
+
+#mp-section-2 {
+  text-align: center;
+  background-color: $grey4a;
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  #mp-section-1 {
+    padding: 30px 0 0 50px;
+  }
+  #mp-section-2 {
+    padding: 50px;
+  }
+}

@@ -1,0 +1,187 @@
+body {
+  background-color: $grey3;
+}
+
+h3 {
+  color: $grey4;
+}
+
+hr {
+  margin: 5px 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: $highlight;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: $highlight2;
+}
+
+
+
+.uip1>.card-body {
+  padding: 20px 50px;
+}
+
+.uip1>.card-body>ul {
+  list-style-type: none;
+  padding: 0;
+}
+.uip1>.card-body>ul>li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.app-body {
+  padding-top: 75px;
+  min-height: calc(100vh - 160px); // view height - footer height
+}
+
+.particles-background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: $grey3;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.icon-left {
+  margin-right: 5px;
+}
+@media (min-width: 992px) {
+  .modal-xl {
+    width: 90%;
+    max-width:1200px;
+  }
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.card-main {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow:hidden;
+  border-width: 0;
+}
+
+#section-header {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background: url('../assets/clouds.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  display:flex;
+  align-items:center;
+}
+
+#section-header-container {
+  width:100%;
+  text-align:center;
+  margin-top:-100px;
+  display: block;
+  color: $grey3;
+}
+
+#section-header-container>h5 {
+  margin-top: 10px;
+  color: $grey3;
+}
+
+.card {
+  -webkit-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.28);
+  padding: 0;
+}
+
+.card-body {
+  padding: 15px 0 0 0;
+}
+
+.image-even {
+  display: none;
+  text-align: left;
+}
+
+.image-odd {
+  text-align: center;
+}
+
+.section-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+  color: $grey4a;
+}
+
+.section-content>hr {
+  width: 70%;
+  border-width: thick;
+  border-color: $highlight2;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.section {
+  padding-top: 20px;
+}
+
+.section-dark {
+  padding-top: 75px;
+  margin-top: -65px;
+  background-color: $grey4a;
+}
+
+.content-even>h4 {
+  color: #9ba96b;
+}
+
+.content-even>p, .content-even>span>p {
+  color: #fff;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .image-even {
+    display: block;
+  }
+  .section-content {
+    text-align: left;
+  }
+  .section-content>hr {
+    margin-left:0;
+  }
+  .content-even {
+    padding-right: 50px;
+  }
+  .content-odd {
+    padding-left: 50px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container-fluid {
+    max-width: 70%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

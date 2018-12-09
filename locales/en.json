@@ -1,0 +1,349 @@
+{
+  "navbar": {
+    "home": "HOME",
+    "info": {
+      "title": "INFO",
+      "escher": "Governance",
+      "mining": "Mining",
+      "monetaryPolicy": "Monetary Policy",
+      "team": "Team",
+      "uip1": "UIP1",
+      "guides": "Guides",
+      "reports": "Reports",
+      "research": "Research"
+    },
+    "wallets": "WALLETS",
+    "escher": "ESCHER",
+    "markets": "GET UBQ"
+  },
+  "home": {
+    "catchPhrase": "Enterprise Stable. Transparent Governance.",
+    "section1": {
+      "title": "PREDICTABLE. CONSISTENT. STABLE.",
+      "text": "Ubiq is built upon an improved version of the Ethereum Codebase, puting stability at its core. Ubiq offers an enterprise-stable platform by implementing well established and thoroughly tested EVM code. This code, coupled with a conservative upgrade schedule, reduces the risk of network instability and unintended hard-forks."
+    },
+    "section2": {
+      "title": "OUR GOVERNANCE SYSTEM PUTS YOU IN CHARGE.",
+      "text1": "Just as Ubiq is permissionless open-source software, Ubiq's governance system 'Escher' democratizes the direction of the platform's development by providing our users an on-chain vote.",
+      "text2": "Important proposal decisions are entrusted to the community at-large through transparent, verifiable, immutable public voting."
+    },
+    "section3": {
+      "title": "AN EFFICIENT & RELIABLE NETWORK.",
+      "text1": "In an independent benchmark it was found that given the same hashrate, Ubiq has <strong>90%</strong> fewer uncles than Ethereum, leading to greater chain security, improving the reliability of the network. It was also found that Ubiq's transactional throughput per second is <strong>2x that of Ethereum's at a 40million block gas limit.</strong>",
+      "text2": "<strong>Source:</strong> <a href='https://www.whiteblock.io/library/ubiq-report.pdf' target='_blank'>https://www.whiteblock.io/library/ubiq-report.pdf</a>"
+    },
+    "section4": {
+      "title": "STABLE MONETARY POLICY WITH NO SURPRISES.",
+      "text1": "Ubiq's monetary policy",
+      "text2": "was hard-coded at its nucleus, meaning fewer surprises for the future. A predictable inflationary control system with longevity in mind helps strike a balance between simulating scarcity and incentivizing miners to secure the network."
+    },
+    "section5": {
+      "title": "NON-ICO. ZERO PREMINE. FAIR LAUNCH.",
+      "text1": "Ubiq launched in 2017 without an ICO, premine, or dev fee, aligning developer incentives with the long term success of the project.",
+      "text2": "Ubiq's distribution mechanism and lack of ICO funding insulates the network from the uncertianty of regulatory compliance regarding securities. As an independent, fair-launch blockchain network, Ubiq has the flexibility to offer solutions to users in a wide variety of regulatory environments."
+    },
+    "section6": {
+      "title": "OPEN-SOURCE COLLABORATION.",
+      "text1": "All of Ubiq's code is Open-Source, available for the community and interested developers to collaborate and build upon.",
+      "text2": "Our community is open for anyone to join. Our members dedicate their time to helping people with issues and informing our users of the latest updates."
+    },
+    "section7": {
+      "title": "UBIQ'S FLUX ALGORITHM KEEPS THE NETWORK RUNNING LIKE CLOCKWORK.",
+      "text": "A key innovation as it adds to the stability of the network and keeps blocks coming smoothly under varying hashrate and minimizes wait time for transaction confirmations. Flux is home grown solution by UBQ devs for difficulty adjustment ensuring an average block time remarkably close to our targeted block time (88 seconds)."
+    }
+  },
+  "monetaryPolicy": {
+    "section1": {
+      "title": "STABLE MONETARY POLICY WITH NO SURPRISES.",
+      "text": "Ubiq's monetary policy was hard-coded at its nucleus, meaning fewer surprises for the future. A predictable inflationary control system with longevity in mind helps strike a balance between simulating scarcity and incentivizing miners to secure the network."
+    },
+    "section2": {
+      "title": "BALANCED & PREDICTABLE.",
+      "text": "Ubiq's monetary policy was designed to keep inflation low while ensuring miners would always be rewarded, preventing a fee-only miners market from emerging. We achieve this by reducing the block reward miners receive by 1UBQ each year, until the reward reaches 1UBQ per block at which point the reward stays at 1UBQ forever."
+    },
+    "blockReward": "Block Reward (UBQ)",
+    "inflationRate": "Inflation Rate (%)"
+  },
+  "mining": {
+    "section1": {
+      "title": "100% Proof-of-Work.",
+      "text": "Ubiq is 100% Proof-of-Work (PoW), mineable on consumer grade GPUs. Originally launcing with Ethash and later changing to Ubqhash after reaching 97.5% consensus via our governance system 'Escher'. You can mine UBQ on any of the pools listed below using <a href='https://github.com/ubiq/ubqminer/releases' target='_blank'>Ubqminer</a>, <a href='https://bitcointalk.org/index.php?topic=2647654.msg48314178#msg48314178' target='_blank'>PhoenixMiner</a>, <a href='https://simplemining.net' target='_blank'>SMOS</a> or <a href='https://hiveos.farm' target='_blank'>HiveOS</a>."
+    },
+    "section2": {
+      "title": "GPU Mineable",
+      "text": "Ubiq's slower DAG growth means older GPUs are supported for much longer. You can still mine Ubiq with a 2GB GPU, and will be able to for quite some time. This lowers the barrier to entry by allowing older cards to participate, and gives miners more time to ROI on their hardware before it's obsolete."
+    },
+    "sizeDAG": "Size of DAG (GB)",
+    "numYears": "Years",
+    "name": "Name",
+    "url": "Website",
+    "uip1": "UIP1 Enabled"
+  },
+  "team": {
+    "jy": {
+      "name": "Julian Yap",
+      "role": "Developer",
+      "desc": "Well experienced in blockchain technology and systems engineering, working with notable projects like Bittrex (over 100 coin code reviews), Blocktech and Decred. Julian has provided several key principles of design, networking and economics to the project.",
+      "social": [
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/jyap"
+        },
+        {
+          "icon": "github",
+          "url": "https://github.com/jyap808"
+        }
+      ]
+    },
+    "lw": {
+      "name": "Luke Williams",
+      "role": "Developer",
+      "desc": "Well known within the blockchain community for building and providing resources and services, such as Iquidus Explorer; a blockchain search tool used by a countless number of ledgers in the industry. Luke is crucial in developing seamless solutions for the Ubiq platform.",
+      "social": [
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/iquidus"
+        },
+        {
+          "icon": "github",
+          "url": "https://github.com/iquidus"
+        }
+      ]
+    },
+    "kh": {
+      "name": "Kris Hansen",
+      "role": "Developer",
+      "desc": "An established developer for many generations of internet technology, Kris has contributed to the success of many finance systems used today. The value brought to the project with existing relationships and use cases provide limitless possibility for adoption and standardization in the fintech world.",
+      "social": [
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/corerenewal"
+        },
+        {
+          "icon": "github",
+          "url": "https://github.com/kris-hansen"
+        },
+        {
+          "icon": "linkedin",
+          "url": "https://www.linkedin.com/in/krishansen"
+        }
+      ]
+    },
+    "ab": {
+      "name": "Aldo Borrero",
+      "role": "Developer",
+      "desc": "Curious and very passionate by nature, Aldo loves Android, Node.js and everything in between related to Blockchain. His past working experiences involve working in the banking industry at ING and several other big projects on the mobile side. In his spare time he loves to contribute to Ubiq.",
+      "social": [
+        {
+          "icon": "github",
+          "url": "https://github.com/aldoborrero"
+        },
+        {
+          "icon": "linkedin",
+          "url": "https://es.linkedin.com/in/aldoborrero"
+        }
+      ]
+    },
+    "as": {
+      "name": "Alex Sterk",
+      "role": "Business Manager",
+      "desc": "Providing many resources to the greater fintech community with his show #blocktalk, Alex is a key component to educating the public on blockchain capabilities. The passion and open mind Alex brings towards researching the newest technology and implementations drive meaningful discussions on the future of the platform.",
+      "social": [
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/block_talk"
+        },
+        {
+          "icon": "youtube",
+          "url": "https://youtube.com/blocktalk"
+        }
+      ]
+    },
+    "kl": {
+      "name": "Kris Lester",
+      "role": "Community Manager",
+      "desc": "Having worked in the tech industry for over a decade, Kris has always taken a keen interest in cutting-edge technologies. An avid believer in the need for decentralization, Kris took an immediate shine to the Ubiq project. He manages our monthly reporting, communicating updates to the community and marketing the Ubiq brand.",
+      "social": [
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/krislester"
+        }
+      ]
+    }
+  },
+  "uip1": {
+    "title": "Ubiq Improvement Proposal (UIP) #1",
+    "text1": "At the end of May 2018, UIP 1 was presented to the community, discussed and voted upon. The community gave clear direction to the development team, with 56.4% of all the Escher supply taking part and a resounding 95.7% of participants voting to design and implement a new Proof-of-Work algorithm. Once the results came in, work began immediately on coding the new algorithm (Ubqhash).",
+    "text2": "Ubiq successfully activated ubqhash at block 660,000. This corresponded to mining Epoch 22.",
+    "essentialLinks": "Essential Links",
+    "ecosystem": "Ecosystem"
+  },
+  "markets": {
+    "title": "Exchanges",
+    "text1": "There are a number of exchanges that list UBQ and its ERC20 tokens for trading. When using these exchanges to purchase and move tokens, always be sure to maintain good security habits, such as enabling two-factor authentication and using strong passwords.",
+    "text2": "<strong>Disclaimer:</strong> Ubiq is not responsible for the content of third party sites. Always check security certificates (SSL) before disclosing sensitive information.",
+    "bittrex": {
+      "title": "Bittrex",
+      "text": "The first exchange to list UBQ. Based in the United States, Bittrex is one of the leading crypto services when it comes to regulatory compliance, security, and international support."
+    },
+    "cryptopia": {
+      "title": "Cryptopia",
+      "text": "An exchange based in New Zealand, Cryptopia makes use of the Ubiq blockchain for hosting its exchange utility tokens."
+    },
+    "einstein": {
+      "title": "Einstein",
+      "text": "The fastest-growing cryptocurrency exchange in Canada. Einstein has a partnership with the Ubiq network, using the blockchain to track its internal company shares."
+    },
+    "upbit": {
+      "title": "Upbit",
+      "text": "One of the largest cryptocurrency exchanges in South Korea, Upbit extends many of the markets available on Bittrex to a Korean customer base."
+    },
+    "upbitsg": {
+      "title": "Upbit Singapore",
+      "text": "Upbit Singapore allows local users in Singapore to trade all of the cryptocurrencies integrated by partner exchange Bittrex with 24/7 real-time security monitoring and firewall system for enhanced security."
+    },
+    "erc20": {
+      "title": "ERC20 Exchange",
+      "text": "A decentralized exchange that has launched dedicated markets for UBQ and ETH tokens. ERC20 Exchange has also created a crypto game built on the Ubiq blockchain called 'Such Moon'."
+    },
+    "litebit": {
+      "title": "Litebit",
+      "text": "A European exchange based in the Netherlands that allows direct crypto purchases in EUR. Has a userbase of over 600,000 and growing."
+    },
+    "catalx": {
+      "title": "Catalx",
+      "text": "A new Canadian exchange still in beta, Catalx will support markets for the UBQ token along with a number of other select assets that pass compliance audits."
+    },
+    "bisq": {
+      "title": "Bisq",
+      "text": "A P2P decentralized exchange network, Bisq supports markets for UBQ and Ubiq tokens. All transactions happen on-chain, meaning that under current market conditions trading volume is typically lower than on centralized exchanges."
+    },
+    "coingamex": {
+      "title": "Coingamex",
+      "text": "A new exchange platform with over 100 cryptocurrency markets, including support for UBQ tokens."
+    },
+    "coinswitch": {
+      "title": "Coinswitch",
+      "text": "A cryptocurrency converter site capable of quickly converting from one crypto to another, as well as enabling direct purchases by Visa and Mastercard. Coinswitch effectively works as an exchange marketplace, comparing prices across different sites and then facilitating conversions at the best rates. The UBQ token is listed."
+    },
+    "xchange": {
+      "title": "xchange.me",
+      "text": "Another crypto converter site that exchanges instantly without order books. Allows purchases to take place without registering an account. The UBQ token is listed on xchange.me."
+    },
+    "cryptofacil": {
+      "title": "Cryptofacil",
+      "text": "A Latin-America based exchange that has a partnership with Bittrex, Cryptofacil will extend Bittrex markets and trading technology to new customer-bases using local operations and compliance expertise."
+    }
+  },
+  "wallets": {
+    "desktop": "Desktop",
+    "browser": "Browser",
+    "extension": "Browser Extension",
+    "mobile": "Mobile",
+    "hardware": "Hardware",
+    "server": "Server",
+    "fusion": {
+      "title": "Fusion",
+      "text": "Bringing together all of your accounts, assets and application interfaces, the Fusion Wallet combines all Ubiq blockchain functionality into one secure and powerful interface. Providing a full node with all of the tools to write and deploy your own smart contracts and tokens.",
+      "download": "Get Fusion"
+    },
+    "pyrus": {
+      "title": "Pyrus",
+      "text": "Pyrus is a browser based, client-side Ubiq wallet. Generate wallets completely client side, easily send Ubiq and *any* ERC-20 Standard Token (e.g QWARK, APX), generate and send offline transactions, ensuring your private keys never touch an internet-connected device.",
+      "download": "Go to Pyrus"
+    },
+    "sparrow": {
+      "title": "Sparrow",
+      "text": "<p>Sparrow creates endless possibilities within the Ubiq network by providing access to Dapps within your Chrome browser.</p><p>Enjoy the ability to create and manage your own identities and view Dapps transactions on the Ubiq network with a secure interface before you accept or decline payments and transactions.</p>",
+      "download": "Get Sparrow"
+    },
+    "dexwallet": {
+      "title": "DexWallet",
+      "text": "Finally you can be in control of your assets, secure your private keys and enjoy the power of blockchain in a new, more free and fun way!",
+      "download": "Get DexWallet"
+    },
+    "gubiq": {
+      "title": "Gubiq",
+      "text": "Gubiq is the core client and backbone of the Ubiq network. Used by developers, services, nodes and running beheind the scenes for both Fusion, Pyrus & Sparrow users.",
+      "download": "Get Gubiq"
+    },
+    "ledger": {
+      "title": "Ledger",
+      "text": "<p>The Ledger Nano S is a highly secure hardware wallet solution that is compatible with Pyrus, MEW and Sparrow. Private keys remain encrypted on a USB device with robust security features, making it one of the safest ways to store your funds.</p><p>Read about Ledger support for Ubiq <a href='https://support.ledgerwallet.com/hc/en-us/articles/115005459725-Ubiq-UBQ-' target='_blank'>here</a>.</p>",
+      "download": "Get Ledger"
+    },
+    "trezor": {
+      "title": "TREZOR",
+      "text": "<p>TREZOR is another hardware wallet device compatible with Ubiq. Like the Ledger, it can interface with Pyrus, MEW and Sparrow to securely manage balances and transfers, as well as interactions with smart contracts such as airdrops and UIP voting.</p><p>A guide to using a TREZOR with Ubiq can be found <a href='https://blog.ubiqsmart.com/ubiq-trezor-a-quick-guide-daa3003d55f6' target='_blank'>here</a>.</p>",
+      "download": "Get Trezor"
+    }
+  },
+  "escher": {
+    "navbar": {
+      "faq": "FAQ",
+      "proposals": "PROPOSALS",
+      "airdrops": "AIRDROPS",
+      "active": "Active",
+      "pending": "Pending",
+      "historic": "Historic"
+    },
+    "title": "Governance",
+    "desc": "Ubiq makes use of the Escher governance system to allow the community to determine the direction of development of the Ubiq protocol, how the Network Development Fund (NDF) is utilized and what they would like to see built and deployed to the network next. Escher (ESCH) is required to vote. To participate in a current Escher airdrop or see past airdrops use the Airdrops menu. To participate in current proposals or see past results use the Proposals menu. For more information see the",
+    "faq": "Frequently Asked Questions.",
+    "faq1": "What is the Escher (ESCH) token contract address?",
+    "faqs": [
+      {
+        "question": "What is the Escher (ESCH) token?",
+        "answer": "<p>Escher (ESCH) is the governance token for Ubiq, a decentralized smart contract platform. ESCH is used to represent a users voting weight when voting on proposals that determine the future direction of the platform.</p>"
+      },
+      {
+        "question": "How do I see Escher (ESCH) in Fusion?",
+        "answer": "<p>You can add ESCH to fusion like any other token. On the <code>Contracts</code> tab in Fusion, scroll to the bottom and click the <code>Watch Token</code> button. Enter the Escher token contract address into the <code>Token Contract Address</code> field, the remaing fields will auto complete (e.g Decimals: 18). Click the <code>OK</code> button. You will now see an ESCH balance for any addresses containing ESCH.</p>"
+      },
+      {
+        "question": "How can I get Escher (ESCH)?",
+        "answer": "<p>You can get ESCH via the routine airdrops. Use to Airdrops menu for more information.</p>"
+      },
+      {
+        "question": "Can I claim for an airdrop from an Exchange?",
+        "answer": "<p>No, you must claim from an address in which you actually own. E.g: Fusion, Pyrus, Ledger, Trezor.</p>"
+      },
+      {
+        "question": "How much Escher (ESCH) will I receive?",
+        "answer": "<p>The airdrop amounts are based on your claim addresses UBQ balance at the airdrop claims defined end block, times a multiplier (e.g for airdrop #1: x 12, for airdrop #2: x 6)</p>"
+      },
+      {
+        "question": "Can I claim Escher (ESCH) from previous airdrops?",
+        "answer": "<p>No, claims must be made during the defined period (between start block and end block). No exceptions.</p>"
+      },
+      {
+        "question": "Do I have to reclaim for each airdrop?",
+        "answer": "<p>Each airdrop is managed by a unique contract, a new claim needs to be made for each airdrop.</p>"
+      },
+      {
+        "question": "When will I receive my Escher (ESCH)?",
+        "answer": "<p>After an airdrops claim period has ended ESCH is minted directly to your claim address</p>"
+      },
+      {
+        "question": "How much UBQ does it cost to claim?",
+        "answer": "<p>The only UBQ consumed is for the transaction fee. This amount will vary depending on gas price. It's a very minimal amount.</p>"
+      },
+      {
+        "question": "Can I transfer Escher (ESCH) to another address?",
+        "answer": "<p>Yes, you can transfer it like any other token on Ubiq.</p>"
+      },
+      {
+        "question": "Is Escher (ESCH) consumed when I vote?",
+        "answer": "<p>No, the ESCH balance of an address at the voting periods defined end block is used to calculate your votes weight, no ESCH is consumed or locked.</p>"
+      },
+      {
+        "question": "Can I use the same Escher (ESCH) to vote on multiple proposals?",
+        "answer": "<p>Yes, to vote on current and future proposals, or multiple active proposals at the same time.</p>"
+      },
+      {
+        "question": "Why vote abstain instead of simply not voting?",
+        "answer": "<p>An abstain vote shows you were aware of, and understood the proposal. This provides much better data/feedback than simply not voting.</p>"
+      }
+    ]
+  }
+}

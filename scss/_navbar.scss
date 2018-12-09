@@ -1,0 +1,51 @@
+.bg-dark {
+  background-color: $grey2 !important;
+}
+
+.nav-tabs>li.nav-item>.nav-link.active {
+  background-color: $grey3;
+  border-color: $grey3;
+  color: #fff;
+}
+
+.nav-item .nav-link {
+  color: $text1 !important;
+}
+
+.nav-item .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+ul.nav-tabs {
+  border-bottom: 1px solid $grey3;
+}
+
+// dropdowns
+.dropdown-menu {
+  background-color: $grey2;
+}
+
+.dropdown-item {
+  color: $text1;
+}
+
+.dropdown-item>span {
+  width: 20px;
+  text-align: center;
+}
+
+.dropdown-item.active, .dropdown-item.active:hover, .dropdown-item:active {
+  background-color: $highlight;
+  color: #fff;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: $text1;
+  background-color: $grey3;
+  border-color: $highlight;
+  outline: none;
+}
+
+.dropdown-divider {
+  border-top: 1px solid $text1;
+}

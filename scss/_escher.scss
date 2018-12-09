@@ -1,0 +1,240 @@
+#card-escher-home {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow:hidden;
+  border-width: 0;
+}
+
+.form-control:focus {
+  border-color: $highlight;
+  box-shadow: none;
+}
+
+
+.btn-primary {
+  color: $text2;
+  background-color: $highlight;
+  border-color: $highlight;
+}
+
+.btn-append {
+  margin-left: 4px;
+  border-radius: 3px;
+  -webkit-box-shadow:$box-shadow1;
+  -moz-box-shadow:$box-shadow1;
+  box-shadow: $box-shadow1;
+}
+
+.badge-nav {
+  margin-top: 3px;
+}
+
+// notifications
+
+.vue-notification {
+  padding: 10px;
+  margin: 0 5px 5px;
+  text-align: center !important;
+  font-size: 20px !important;
+
+  color: #ffffff;
+  background: #00ea90;
+  border-left: none;
+  border-radius: 5px;
+
+  &.warn {
+    background: #ffb648;
+  }
+
+  &.error {
+    background: #E54D42;
+  }
+
+  &.success {
+    background: #00ea90 !important;
+  }
+}
+
+.top-notification {
+  margin-top: 58px;
+}
+
+// Blockie
+.address-identicon-container {
+  padding: 0;
+  text-align: left;
+  max-width: 4.5rem;
+  margin-left: -.5rem;
+  margin-top: .5rem;
+}
+
+.address-identicon-container-right {
+  text-align: right;
+  .addressIdenticon { float: right; }
+}
+
+.address-identicon-container-offline {
+  padding: 0;
+  margin-left: -15px;
+}
+
+.addressIdenticon {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  box-shadow: inset $text1 0 2px 2px, inset rgba(0, 0, 0, 0.6) 0 -1px 8px;
+}
+
+.addressIdenticon.med {
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+}
+.addressIdenticon.small {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+}
+.addressIdenticon.xs {
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  margin-top: 3px;
+}
+
+.addressIdenticon.inline {
+  display: inline-block;
+}
+
+.identicon-column {
+  width: 55px;
+}
+
+// pagination
+
+.page-item, .pagination-datatables li, .pagination li {
+  margin-right: 4px;
+  -webkit-box-shadow:$box-shadow1;
+  -moz-box-shadow:$box-shadow1;
+  box-shadow: $box-shadow1;
+}
+
+.page-link, .page-item.disabled .page-link {
+  border-radius: 3px;
+  color: $text1;
+  background-color: $grey4a;
+  border-color: $grey4a;
+}
+
+.page-link:hover {
+  background-color: $grey4a;
+  border-color: $highlight;
+  color: $text1;
+}
+
+.page-link:focus {
+  background-color: $grey4a;
+  border-color: $highlight;
+  box-shadow: none;
+}
+
+.page-link.btn-primary {
+  color: $text2;
+  background-color: $highlight !important;
+  border-color: $highlight !important;
+}
+
+
+// FAQ
+.faq .card-header {
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  background-color: $grey4a;
+}
+
+.faq>div>.card-body {
+  padding: 50px;
+}
+
+.escher-faq {
+  padding: 0 50px;
+}
+
+.faq .btn {
+  border-radius: 0;
+  background-color: $grey3;
+  color: #fff;
+}
+
+.accordion {
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.accordion .card {
+  border-color: $grey3;
+  border-radius: 0px;
+  margin-top: 0px;
+  -webkit-box-shadow:$box-shadow1;
+  -moz-box-shadow:$box-shadow1;
+  box-shadow: $box-shadow1;
+}
+
+// cards
+.card-header {
+  background-color: $grey4a;
+  color: #fff;
+  text-align: left;
+  margin: -20px 0 0;
+  border-radius: 3px;
+  padding: 15px;
+  -webkit-box-shadow:$box-shadow1;
+  -moz-box-shadow:$box-shadow1;
+  box-shadow: $box-shadow1;
+}
+
+.card-preview-proposal {
+  text-align: left;
+  color: $grey4;
+  padding: 0 30px 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow:$box-shadow1;
+  -moz-box-shadow:$box-shadow1;
+  box-shadow: $box-shadow1;
+}
+
+.card-preview-airdrop {
+  text-align: left;
+  color: $grey4;
+  padding: 0 30px 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow:$box-shadow1;
+  -moz-box-shadow:$box-shadow1;
+  box-shadow: $box-shadow1;
+}
+
+#proposal-section-1, #airdrop-section-1 {
+  padding: 15px 30px 15px;
+  text-align: left;
+}
+
+#proposal-section-2 {
+  padding: 0;
+  background-color: $grey4a;
+  color: #fff;
+  text-align: left;
+}
+
+#proposal-section-3, #airdrop-section-2 {
+  padding: 25px;
+}
+
+.form-control {
+  height: 3rem;
+}

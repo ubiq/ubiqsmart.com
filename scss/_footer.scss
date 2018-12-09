@@ -1,0 +1,41 @@
+// footer
+.footer {
+  height: 160px;
+  background-color: $grey2 !important;
+  color: $text1;
+  text-align: left;
+  font: 14px Courier New,Helvetica,Arial,sans-serif;
+}
+
+footer>.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+footer a {
+  color: $text1 !important;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+// social
+.social-col {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.social {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.social>li {
+  margin-bottom: 6px;
+}
+
+.social>li>a>span {
+  width: 15px;
+}

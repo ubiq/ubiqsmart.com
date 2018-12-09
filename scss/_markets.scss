@@ -1,0 +1,46 @@
+.market-graphic {
+  text-align: right;
+}
+.card-market {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow:hidden;
+  border-width: 0;
+  padding: 0;
+}
+
+.card-market>.card-body {
+  padding: 0
+}
+
+.flex-vh-center {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.img-market-col>.flex-vh-center>img {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .market-section {
+    padding-left: 25px;
+  }
+  .img-market-col>.flex-vh-center>img {
+    margin-top: 0;
+  }
+  .text-market-col {
+    padding: 20px 40px 20px 0;
+  }
+}
