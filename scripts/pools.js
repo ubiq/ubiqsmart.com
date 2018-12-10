@@ -5,8 +5,7 @@ const pools = [
     url: 'http://ubq.altpool.pro'
   }, {
     name: 'BAIKALMINE',
-    url: 'http://pool.baikalmine.com/en/ubiq/',
-    url: 'http://pool.baikalmine.com/en/ubiq-solo/'
+    url: 'http://pool.baikalmine.com/en/ubiq/'
   }, {
     name: 'ZET',
     url: 'https://ubq.zet-tech.eu'
