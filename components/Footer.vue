@@ -18,7 +18,7 @@
           <h6> <fa :icon="['fas', 'users']"/> Social</h6>
           <hr style="margin: 5px 0px"/>
           <ul class="social">
-            <li><a href="https://twitter.com/ubiqsmart.com" target="_blank"><fa :icon="['fab', 'twitter']"/> Twitter</a></li>
+            <li><a href="https://twitter.com/ubiqsmart" target="_blank"><fa :icon="['fab', 'twitter']"/> Twitter</a></li>
             <li><a href="https://discord.gg/HF6vEGF" target="_blank"><fa :icon="['fab', 'discord']"/> Discord</a></li>
             <li><a href="https://github.com/ubiq/" target="_blank"><fa :icon="['fab', 'github']"/> Github</a></li>
             <li><a href="https://www.reddit.com/r/Ubiq/" target="_blank"><fa :icon="['fab', 'reddit']"/> Reddit</a></li>
