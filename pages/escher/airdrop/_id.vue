@@ -54,6 +54,16 @@
         </b-row>
         <ClaimsTable :items="claims" :escher="toEscher"></ClaimsTable>
       </b-modal>
+      <b-modal id="participationModal" centered hide-footer class="text-center">
+        <div slot="modal-title">Participation</div>
+        <b-row>
+          <b-col md="12">
+            <PieChart :chart-data="charts.pie" :options="chartOptions.pie" :height="300" :styles="{height: '300px'}"/>
+            <b-badge>Claims: {{ totalClaims }} </b-badge>
+            <b-badge>Claimed (ESCH): {{ totalClaimedEscher }} </b-badge>
+          </b-col>
+        </b-row>
+      </b-modal>
       <b-card class="card-main">
         <h4 class="text-center">{{ title }}</h4>
         <b-row class="justify-content-md-center">
@@ -139,7 +149,7 @@ export default {
           legend: {
             display: true,
             labels: {
-              fontColor: 'rgba(255,255,255,0.5)',
+              fontColor: 'rgba(0,0,0,0.5)',
               fontFamily: "'Avenir', 'Helvetica', 'Arial', 'sans-serif'"
             }
           }
@@ -195,7 +205,7 @@ export default {
           this.totalClaimedEscher = this.toEscher(response.data.totalClaimed)
           var percentClaimed = ((this.totalClaimedUbiq / this.$store.state.totalUbiq) * 100).toFixed(4)
           this.charts.pie = {
-            labels: ['Claimed', 'Unclaimed'],
+            labels: ['Claimed (%)', 'Unclaimed (%)'],
             datasets: [
               {
                 backgroundColor: ['#00ea90', '#222'],
