@@ -7,6 +7,10 @@
           <div id="section-header-container">
             <img src="~/assets/logo-full.svg">
             <h5>{{ $t("home.catchPhrase") }}</h5>
+            <div>
+              <nuxt-link to="/wallets" style="width:200px;" class="btn btn-secondary"><fa :icon="['fas', 'wallet']"/> Choose your wallet</nuxt-link>
+              <a class="btn btn-secondary" style="width:200px;" href="https://discord.gg/HF6vEGF" target="_blank"><fa :icon="['fab', 'discord']"/> Join the discord</a>
+            </div>
           </div>
         </b-row>
 
