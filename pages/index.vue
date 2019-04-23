@@ -63,7 +63,7 @@
             <div class="section-content content-even">
               <h4>{{ $t("home.section4.title") }}</h4>
               <hr></hr>
-              <p> <nuxt-link to="/monetary-policy">{{ $t("home.section4.text1")}}</nuxt-link> {{ $t('home.section4.text2') }}</p>
+              <p> <nuxt-link to="/mining#monetary-policy">{{ $t("home.section4.text1")}}</nuxt-link> {{ $t('home.section4.text2') }}</p>
               </span>
             </div>
           </b-col>

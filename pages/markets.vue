@@ -60,17 +60,11 @@ export default {
         id: 'upbitsg',
         url: 'https://sg.upbit.com/home'
       }, {
-        id: 'erc20',
-        url: 'https://erc20.exchange/'
-      }, {
         id: 'litebit',
         url: 'https://www.litebit.eu/en'
       }, {
         id: 'catalx',
         url: 'https://catalx.io/'
-      }, {
-        id: 'bisq',
-        url: 'https://bisq.network/'
       }, {
         id: 'coingamex',
         url: 'https://coingamex.com/home'

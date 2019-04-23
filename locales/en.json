@@ -2,19 +2,17 @@
   "navbar": {
     "home": "HOME",
     "info": {
-      "title": "INFO",
-      "escher": "Governance",
-      "mining": "Mining",
-      "monetaryPolicy": "Monetary Policy",
-      "team": "Team",
-      "uip1": "UIP1",
+      "title": "BLOG",
       "guides": "Guides",
       "reports": "Reports",
       "research": "Research"
     },
     "wallets": "WALLETS",
     "escher": "ESCHER",
-    "markets": "GET UBQ"
+    "mining": "MINING",
+    "markets": "MARKETS",
+    "social": "SOCIAL",
+    "team": "TEAM"
   },
   "home": {
     "catchPhrase": "Enterprise Stable. Transparent Governance.",
@@ -67,7 +65,7 @@
   "mining": {
     "section1": {
       "title": "100% Proof-of-Work.",
-      "text": "Ubiq is 100% Proof-of-Work (PoW), mineable on consumer grade GPUs. Originally launcing with Ethash and later changing to Ubqhash after reaching 97.5% consensus via our governance system 'Escher'. You can mine UBQ on any of the pools listed below using <a href='https://github.com/ubiq/ubqminer/releases' target='_blank'>Ubqminer</a>, <a href='https://bitcointalk.org/index.php?topic=2647654.msg48314178#msg48314178' target='_blank'>PhoenixMiner</a>, <a href='https://simplemining.net' target='_blank'>SMOS</a> or <a href='https://hiveos.farm' target='_blank'>HiveOS</a>."
+      "text": "Ubiq is 100% Proof-of-Work (PoW), mineable on consumer grade GPUs. Originally launching with Ethash and later changing to Ubqhash after reaching 97.5% consensus via our governance system 'Escher'. You can mine UBQ on any of the pools listed below using <a href='https://github.com/ubiq/ubqminer/releases' target='_blank'>Ubqminer</a>, <a href='https://bitcointalk.org/index.php?topic=2647654.msg48314178#msg48314178' target='_blank'>PhoenixMiner</a>, <a href='https://simplemining.net' target='_blank'>SMOS</a> or <a href='https://hiveos.farm' target='_blank'>HiveOS</a>."
     },
     "section2": {
       "title": "GPU Mineable",
@@ -264,7 +262,7 @@
     },
     "gubiq": {
       "title": "Gubiq",
-      "text": "Gubiq is the core client and backbone of the Ubiq network. Used by developers, services, nodes and running beheind the scenes for both Fusion, Pyrus & Sparrow users.",
+      "text": "Gubiq is the core client and backbone of the Ubiq network. Used by developers, services, nodes and running behind the scenes for both Fusion, Pyrus & Sparrow users.",
       "download": "Get Gubiq"
     },
     "ledger": {
