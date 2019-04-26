@@ -12,7 +12,15 @@
             <b-collapse id="contract" accordion="faqAccordion" role="tabpanel">
               <b-card-body>
                 <no-ssr>
-                  <AddressReadOnly :address="escherContract"/>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <Blockie :address="escherContract.toLowerCase()" size="med" inline="true"/>
+                    </div>
+                    <input class="form-control" type="text" :value="escherContract" style="margin-left:5px;" readonly/>
+                    <div class="input-group-append">
+                      <button class="btn btn-primary btn-append" type="button" v-clipboard:copy="escherContract" v-clipboard:success="success" v-clipboard:error="error">Copy</button>
+                    </div>
+                  </div>
                 </no-ssr>
               </b-card-body>
             </b-collapse>
@@ -37,7 +45,7 @@
 
 <script>
 
-import AddressReadOnly from '~/components/AddressReadOnly.vue'
+import Blockie from '~/components/Blockie.vue'
 
 export default {
   name: 'Faq',
@@ -48,8 +56,25 @@ export default {
       faqs: this.$t('escher.faqs')
     }
   },
+  methods: {
+    makeToast(variant = null, title = '', message = '') {
+      this.$bvToast.toast(message, {
+        title: title,
+        toaster: 'b-toaster-top-right',
+        solid: true,
+        variant: variant,
+        appendToast: true
+      })
+    },
+    success: function (e) {
+      this.makeToast('success', 'Contract address copied to clipboard', this.escherContract)
+    },
+    error: function (e) {
+      this.makeToast('danger', 'Unable to copy contract address to clipboard', this.escherContract)
+    }
+  },
   components: {
-    AddressReadOnly
+    Blockie
   }
 }
 
