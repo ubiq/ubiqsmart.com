@@ -67,7 +67,7 @@ module.exports = {
         // import solid icons (fas)
         {
           set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faUsers', 'faWallet']
+          icons: ['faUser', 'faUsers', 'faWallet']
         }
       ]
     }]

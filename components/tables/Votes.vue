@@ -2,6 +2,9 @@
   <b-row>
     <b-col md="12">
       <b-table class="mb-0" responsive="sm" hover :items="items" :fields="fields" :current-page="currentPage" :per-page="perPage">
+        <template slot="HEAD_identicon" slot-scope="data">
+          <em><fa :icon="['fas', 'user']"/></em>
+        </template>
         <div slot="identicon" class="identicon" slot-scope="data">
           <Blockie :address="data.item.address" size="small"/>
         </div>
@@ -38,7 +41,6 @@ export default {
       totalRows: 0,
       fields: {
         identicon: {
-          label: '<i class="fa fa-users">',
           class: 'text-center identicon-column'
         },
         address: {
