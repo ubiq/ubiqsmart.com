@@ -18,18 +18,20 @@ export default {
   name: 'ReadOnly',
   props: ['address'],
   methods: {
-    success: function (e) {
-      this.$notify({
-        group: 'normal',
-        text: 'Contract address copied to clipboard'
+    makeToast(variant = null, title = '', message = '') {
+      this.$bvToast.toast(message, {
+        title: title,
+        toaster: 'b-toaster-top-right',
+        solid: true,
+        variant: variant,
+        appendToast: true
       })
     },
+    success: function (e) {
+      this.makeToast('success', 'Contract address copied to clipboard', address)
+    },
     error: function (e) {
-      this.$notify({
-        group: 'normal',
-        text: 'Unable to copy contract address to clipboard',
-        type: 'error'
-      })
+      this.makeToast('danger', 'Unable to copy contract address to clipboard', address)
     }
   },
   components: {

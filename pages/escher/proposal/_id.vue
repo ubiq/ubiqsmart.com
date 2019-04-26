@@ -279,33 +279,26 @@ export default {
           this.errors.push(e)
         })
     },
-    copyContractSuccess: function (e) {
-      this.$notify({
-        group: 'normal',
-        text: 'Contract address copied to clipboard',
-        type: 'success'
+    makeToast(variant = null, title = '', message = '') {
+      this.$bvToast.toast(message, {
+        title: title,
+        toaster: 'b-toaster-top-right',
+        solid: true,
+        variant: variant,
+        appendToast: true
       })
+    },
+    copyContractSuccess: function (e) {
+      this.makeToast('success', 'Contract address copied to clipboard', this.contract)
     },
     copyContractError: function (e) {
-      this.$notify({
-        group: 'normal',
-        text: 'Unable to copy contract address to clipboard',
-        type: 'error'
-      })
+      this.makeToast('danger', 'Unable to copy contract address to clipboard', this.contract)
     },
     copyAbiSuccess: function (e) {
-      this.$notify({
-        group: 'normal',
-        text: 'ABI / JSON copied to clipboard',
-        type: 'success'
-      })
+      this.makeToast('success', 'ABI / JSON copied to clipboard', this.contract)
     },
     copyAbiError: function (e) {
-      this.$notify({
-        group: 'normal',
-        text: 'Unable to copy ABI / JSON to clipboard',
-        type: 'error'
-      })
+      this.makeToast('danger', 'Unable to copy ABI / JSON to clipboard', this.contract)
     },
     checkVote: function (address) {
       var validator = new RegExp(/^0x[0-9a-fA-F]{40}$/i)
@@ -313,28 +306,16 @@ export default {
         axios.get('https://escher.ubiqscan.io/vote/' + this.contract + '/' + address.toLowerCase())
           .then(response => {
             if (!response.data.error) {
-              this.$notify({
-                group: 'normal',
-                text: 'Voted for candidate ' + response.data.candidate + ' successfully.',
-                type: 'success'
-              })
+              this.makeToast('success', 'Vote was received successfully for candidate ' + response.data.candidate, address)
             } else {
-              this.$notify({
-                group: 'normal',
-                text: 'Vote not found.',
-                type: 'error'
-              })
+              this.makeToast('danger', 'Vote not found', address)
             }
           })
           .catch(e => {
             this.errors.push(e)
           })
       } else {
-        this.$notify({
-          group: 'normal',
-          text: 'Invalid address',
-          type: 'error'
-        })
+        this.makeToast('danger', 'Invalid address', address)
       }
     }
   }

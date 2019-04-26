@@ -43,7 +43,6 @@ module.exports = {
   plugins: [
     '~/plugins/i18n.js',
     { src: '~/plugins/clipboard.js', ssr: false },
-    { src: '~/plugins/notification.js', ssr: false },
     { src: '~/plugins/particles.js', ssr: false }
   ],
 

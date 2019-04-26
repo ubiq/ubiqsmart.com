@@ -1,9 +1,6 @@
 <template>
   <div class="app">
     <Navbar/>
-    <no-ssr>
-      <notifications position="top right" class="top-notification" group="normal" width='100%'/>
-    </no-ssr>
     <div class="app-body container-fluid">
       <nuxt/>
     </div>
