@@ -20,7 +20,7 @@
           <b-btn size="sm" class="float-right" variant="secondary" type="button" v-clipboard:copy="abi" v-clipboard:success="copyAbiSuccess" v-clipboard:error="copyAbiError">
             Copy ABI / JSON
           </b-btn>
-          <b-btn size="sm" class="float-right icon-left" variant="secondary" type="button" v-clipboard:copy="contract" v-clipboard:success="copyContractSuccess" v-clipboard:error="copyContractError">
+          <b-btn size="sm" class="float-right icon-left" variant="secondary" type="button" v-clipboard:copy="checksum" v-clipboard:success="copyContractSuccess" v-clipboard:error="copyContractError">
             Copy Contract Address
           </b-btn>
         </div>
@@ -40,7 +40,7 @@
           <b-btn size="sm" class="float-right" variant="secondary" type="button" v-clipboard:copy="abi" v-clipboard:success="copyAbiSuccess" v-clipboard:error="copyAbiError">
             Copy ABI / JSON
           </b-btn>
-          <b-btn size="sm" class="float-right icon-left" variant="secondary" type="button" v-clipboard:copy="contract" v-clipboard:success="copyContractSuccess" v-clipboard:error="copyContractError">
+          <b-btn size="sm" class="float-right icon-left" variant="secondary" type="button" v-clipboard:copy="checksum" v-clipboard:success="copyContractSuccess" v-clipboard:error="copyContractError">
             Copy Contract Address
           </b-btn>
         </div>
@@ -106,6 +106,7 @@
 
 <script>
 import axios from 'axios'
+import util from '~/scripts/util'
 import ABI from '~/scripts/claim'
 import AddressSubmit from '~/components/SubmitAddress.vue'
 import BarChart from '~/components/charts/Bar.vue'
@@ -138,8 +139,8 @@ export default {
       claims: [],
       errors: [],
       charts: {
-        pie: null,
-        bar: null
+        pie: {},
+        bar: {}
       },
       // chart options need to be passed as a prop to avoid a vue-chartjs bug
       chartOptions: {
@@ -182,10 +183,10 @@ export default {
     },
     blocksRemaining () {
       return this.block >= this.endBlock ? 0 : this.endBlock - this.block
+    },
+    checksum () {
+      return util.toChecksumAddress(this.contract)
     }
-  },
-  created () {
-    this.fetch(this.contract)
   },
   components: {
     AddressSubmit,
@@ -262,16 +263,16 @@ export default {
       })
     },
     copyContractSuccess: function (e) {
-      this.makeToast('success', 'Contract address copied to clipboard', this.contract)
+      this.makeToast('success', 'Contract address copied to clipboard', this.checksum)
     },
     copyContractError: function (e) {
-      this.makeToast('danger', 'Unable to copy contract address to clipboard', this.contract)
+      this.makeToast('danger', 'Unable to copy contract address to clipboard', this.checksum)
     },
     copyAbiSuccess: function (e) {
-      this.makeToast('success', 'ABI / JSON copied to clipboard', this.contract)
+      this.makeToast('success', 'ABI / JSON copied to clipboard', this.checksum)
     },
     copyAbiError: function (e) {
-      this.makeToast('danger', 'Unable to copy ABI / JSON to clipboard', this.contract)
+      this.makeToast('danger', 'Unable to copy ABI / JSON to clipboard', this.checksum)
     },
     checkClaim: function (address) {
       var validator = new RegExp(/^0x[0-9a-fA-F]{40}$/i)
@@ -279,16 +280,16 @@ export default {
         axios.get('https://escher.ubiqscan.io/claim/' + this.contract + '/' + address.toLowerCase())
           .then(response => {
             if (!response.data.error) {
-              this.makeToast('success', 'Claim was received successfully', address)
+              this.makeToast('success', 'Claim was received successfully', util.toChecksumAddress(address))
             } else {
-              this.makeToast('danger', 'Claim not found', address)
+              this.makeToast('danger', 'Claim not found', util.toChecksumAddress(address))
             }
           })
           .catch(e => {
             this.errors.push(e)
           })
       } else {
-        this.makeToast('danger', 'Invalid address', address)
+        this.makeToast('danger', 'Invalid address', util.toChecksumAddress(address))
       }
     }
   }

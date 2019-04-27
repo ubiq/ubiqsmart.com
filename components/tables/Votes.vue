@@ -9,7 +9,7 @@
           <Blockie :address="data.item.address" size="small"/>
         </div>
         <div slot="address" slot-scope="data">
-          <div><a :href="'https://ubiqscan.io/address/' + data.value" target="_blank">{{data.value}}</a></div>
+          <div><a :href="'https://ubiqscan.io/address/' + data.value" target="_blank">{{formatAddress(data.value)}}</a></div>
         </div>
         <div slot="balance" slot-scope="data">
           <strong>{{data.value}}</strong>
@@ -27,6 +27,7 @@
 
 <script>
 import Blockie from '~/components/Blockie.vue'
+import util from '~/scripts/util'
 
 export default {
   props: {
@@ -60,6 +61,9 @@ export default {
   methods: {
     getRowCount (items) {
       return items.length
+    },
+    formatAddress (address) {
+      return util.toChecksumAddress(address)
     }
   },
   components: {
