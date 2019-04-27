@@ -153,8 +153,8 @@ export default {
       errors: [],
       useWeb3: false,
       charts: {
-        pie: null,
-        bar: null
+        pie: {},
+        bar: {}
       },
       // chart options need to be passed as a prop to avoid a vue-chartjs bug
       chartOptions: {

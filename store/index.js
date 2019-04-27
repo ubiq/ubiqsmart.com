@@ -1,3 +1,5 @@
+const BigNumber = require('bignumber.js')
+
 export const state = () => ({
   locales: ['en'],
   locale: 'en',
@@ -35,6 +37,6 @@ export const mutations = {
     state.totalEscher = payload
   },
   setTotalUbiq (state, payload) {
-    state.totalUbiq = payload
+    state.totalUbiq = new BigNumber(payload).div('1e18').toFixed()
   }
 }
