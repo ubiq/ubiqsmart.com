@@ -100,7 +100,11 @@
             No UBQ or ESCH are transferred when signaling, the vote mechanism simply registers your vote for this proposal. As such, the entire ESCH balance stored at that address would be counted towards the vote. The balance at the proposals defined end block ({{endBlock}}) is used, not the balance when the vote is made.
           </b-alert>
         </div>
-        <div id="proposal-section-2">
+        <!-- if uip4 use custom uip4 candidates component -->
+        <div v-if="contract === '0x073c6b68ba00c59163fa3ae79d7c3d263f78981e'">
+          <CandidatesUip4 :items="candidates" :total-weight="totalWeight"></CandidatesUip4>
+        </div>
+        <div v-else id="proposal-section-2">
           <CandidatesTable :items="candidates" :total-weight="totalWeight"></CandidatesTable>
         </div>
         <div id="proposal-section-3">
@@ -120,6 +124,7 @@ import ABI from '~/scripts/vote'
 import AddressSubmit from '~/components/SubmitAddress.vue'
 import BarChart from '~/components/charts/Bar.vue'
 import CandidatesTable from '~/components/tables/Candidates.vue'
+import CandidatesUip4 from '~/components/uip4/Candidates.vue'
 import PieChart from '~/components/charts/Pie.vue'
 import VotesTable from '~/components/tables/Votes.vue'
 import VueMarkdown from 'vue-markdown'
@@ -206,6 +211,7 @@ export default {
     PieChart,
     VotesTable,
     CandidatesTable,
+    CandidatesUip4,
     'vue-markdown': VueMarkdown
   },
   methods: {
