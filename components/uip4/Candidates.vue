@@ -2,7 +2,7 @@
   <div>
     <b-row>
       <b-col md="12">
-        <b-carousel id="carousel" indicators img-height="480">
+        <b-carousel id="carousel" controls indicators img-height="480">
           <span v-for="item in items">
             <b-carousel-slide :caption="'Candidate ' + item.index" style="padding:0 20px 100px;text-align:center;height:480px;">
               <div>

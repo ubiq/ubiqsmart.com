@@ -185,3 +185,16 @@ a:hover {
 @media (min-width: 1200px) {
 
 }
+
+// carousel controls
+.carousel-control-prev-icon {
+  background-image: url('../assets/controls/carousel-control-prev-icon.svg')
+}
+
+.carousel-control-next-icon {
+  background-image: url('../assets/controls/carousel-control-next-icon.svg')
+}
+
+.carousel-indicators li {
+  background-color: #000
+}
