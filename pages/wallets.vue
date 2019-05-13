@@ -89,17 +89,23 @@
         <b-row class="wallet-section" no-gutters>
           <b-col md="6">
             <div class="section-content content-odd">
-              <h4>{{ $t("wallets.ledger.title") }} ({{ $t("wallets.hardware") }})</h4>
+              <h4>{{ $t("wallets.guarda.title") }}</h4>
               <hr/>
-              <span v-html="$t('wallets.ledger.text' )"/>
+              <p>{{$t("wallets.guarda.text")}}</p>
               <b-row class="download">
-                <a href="https://ledger.io/" target="_blank" class="btn btn-secondary">{{ $t("wallets.ledger.download") }}</a>
+                <a href="https://guarda.co/" target="_blank" class="btn btn-secondary">{{ $t("wallets.guarda.download") }}</a>
+                <span class="platforms ml-auto">
+                  <fa :icon="['fab', 'chrome']" class="icon-left"/>
+                  <fa :icon="['fab', 'windows']" class="icon-left"/>
+                  <fa :icon="['fab', 'apple']" class="icon-left"/>
+                  <fa :icon="['fab', 'linux']"/>
+                </span>
               </b-row>
             </div>
           </b-col>
           <b-col md="6">
             <div class="wallet-image">
-              <img id="ledger-image" :src="require('~/assets/wallets/ledger.jpg')"/>
+              <img id="guarda-image" :src="require('~/assets/wallets/guarda.png')"/>
             </div>
           </b-col>
         </b-row>
@@ -125,22 +131,40 @@
         <b-row class="wallet-section" no-gutters>
           <b-col md="6">
             <div class="section-content content-odd">
-              <h4>{{ $t("wallets.gubiq.title") }} ({{ $t("wallets.server") }})</h4>
+              <h4>{{ $t("wallets.ledger.title") }} ({{ $t("wallets.hardware") }})</h4>
               <hr/>
-              <p>{{ $t('wallets.gubiq.text' )}}</p>
+              <span v-html="$t('wallets.ledger.text' )"/>
               <b-row class="download">
-                <a href="https://github.com/ubiq/go-ubiq/releases" target="_blank" class="btn btn-secondary">{{ $t("wallets.gubiq.download") }}</a>
-                <span class="platforms ml-auto">
-                  <fa :icon="['fab', 'windows']" class="icon-left"/>
-                  <fa :icon="['fab', 'apple']" class="icon-left"/>
-                  <fa :icon="['fab', 'linux']"/>
-                </span>
+                <a href="https://ledger.io/" target="_blank" class="btn btn-secondary">{{ $t("wallets.ledger.download") }}</a>
               </b-row>
             </div>
           </b-col>
           <b-col md="6">
             <div class="wallet-image">
+              <img id="ledger-image" :src="require('~/assets/wallets/ledger.jpg')"/>
+            </div>
+          </b-col>
+        </b-row>
+
+        <b-row class="wallet-section-dark" no-gutters>
+          <b-col md="6">
+            <div class="wallet-image">
               <img id="gubiq-image" :src="require('~/assets/wallets/gubiq.png')"/>
+            </div>
+          </b-col>
+          <b-col md="6">
+            <div class="section-content content-even">
+              <h4>{{ $t("wallets.gubiq.title") }} ({{ $t("wallets.server") }})</h4>
+              <hr/>
+              <p>{{ $t('wallets.gubiq.text' )}}</p>
+              <b-row class="download">
+                <a href="https://github.com/ubiq/go-ubiq/releases" target="_blank" class="btn btn-secondary">{{ $t("wallets.gubiq.download") }}</a>
+                <span class="platforms platforms-dark ml-auto">
+                  <fa :icon="['fab', 'windows']" class="icon-left"/>
+                  <fa :icon="['fab', 'apple']" class="icon-left"/>
+                  <fa :icon="['fab', 'linux']"/>
+                </span>
+              </b-row>
             </div>
           </b-col>
         </b-row>

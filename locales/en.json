@@ -260,6 +260,11 @@
       "text": "Finally you can be in control of your assets, secure your private keys and enjoy the power of blockchain in a new, more free and fun way!",
       "download": "Get DexWallet"
     },
+    "guarda": {
+      "title": "Guarda Wallet",
+      "text": "Receive, Send, Buy, Exchange, Stake and do whatever you want with all coins in one secure, non-custodial, multiplatform wallet.",
+      "download": "Get Guarda Wallet"
+    },
     "gubiq": {
       "title": "Gubiq",
       "text": "Gubiq is the core client and backbone of the Ubiq network. Used by developers, services, nodes and running behind the scenes for both Fusion, Pyrus & Sparrow users.",
