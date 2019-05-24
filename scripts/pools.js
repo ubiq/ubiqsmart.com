@@ -13,8 +13,8 @@ const pools = [
     name: 'UbiqPool.io',
     url: 'https://ubiqpool.io'
   }, {
-    name: 'HODLPool',
-    url: 'http://ubiq.hodlpool.com'
+    name: 'WATTPOOL',
+    url: 'https://ubiq.wattpool.net'
   }, {
     name: 'Ubiqpool.fr',
     url: 'https://ubiqpool.fr'
