@@ -48,9 +48,6 @@ export default {
         id: 'bittrex',
         url: 'https://bittrex.com/'
       }, {
-        id: 'cryptopia',
-        url: 'https://www.cryptopia.co.nz/'
-      }, {
         id: 'einstein',
         url: 'https://einstein.exchange/'
       }, {
