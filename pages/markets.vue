@@ -48,8 +48,8 @@ export default {
         id: 'bittrex',
         url: 'https://bittrex.com/'
       }, {
-        id: 'einstein',
-        url: 'https://einstein.exchange/'
+        id: 'changeangel',
+        url: 'https://changeangel.io/'
       }, {
         id: 'upbit',
         url: 'https://upbit.com/home'
@@ -57,17 +57,14 @@ export default {
         id: 'upbitsg',
         url: 'https://sg.upbit.com/home'
       }, {
+        id: 'einstein',
+        url: 'https://einstein.exchange/'
+      }, {
         id: 'litebit',
         url: 'https://www.litebit.eu/en'
       }, {
         id: 'catalx',
         url: 'https://catalx.io/'
-      }, {
-        id: 'coingamex',
-        url: 'https://coingamex.com/home'
-      }, {
-        id: 'coinswitch',
-        url: 'https://coinswitch.co/'
       }, {
         id: 'xchange',
         url: 'https://xchange.me/'
