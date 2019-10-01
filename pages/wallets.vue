@@ -135,7 +135,7 @@
               <hr/>
               <span v-html="$t('wallets.ledger.text' )"/>
               <b-row class="download">
-                <a href="https://ledger.io/" target="_blank" class="btn btn-secondary">{{ $t("wallets.ledger.download") }}</a>
+                <a href="https://ledger.com/" target="_blank" class="btn btn-secondary">{{ $t("wallets.ledger.download") }}</a>
               </b-row>
             </div>
           </b-col>
