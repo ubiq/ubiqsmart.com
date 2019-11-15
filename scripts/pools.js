@@ -1,6 +1,9 @@
 // submit PR adding your pool here to have it displayed on website.
 const pools = [
   {
+    name: 'UBQ GOMINE.PRO',
+    url: 'https://ubiq.gomine.pro/'
+  }, {
     name: 'AltPool',
     url: 'http://ubq.altpool.pro'
   }, {
