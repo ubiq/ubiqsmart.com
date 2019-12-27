@@ -1,5 +1,10 @@
 // submit PR adding your pool here to have it displayed on website.
 const pools = [
+  
+  {
+    name: 'CLONA',
+    url: 'https://ubiq.clona.ru/'
+  },
   {
     name: 'UBQ GOMINE.PRO',
     url: 'https://ubiq.gomine.pro/'
