@@ -95,6 +95,7 @@
               <b-row class="download">
                 <a href="https://guarda.co/" target="_blank" class="btn btn-secondary">{{ $t("wallets.guarda.download") }}</a>
                 <span class="platforms ml-auto">
+                  <fa :icon="['fab', 'android']"/>
                   <fa :icon="['fab', 'chrome']" class="icon-left"/>
                   <fa :icon="['fab', 'windows']" class="icon-left"/>
                   <fa :icon="['fab', 'apple']" class="icon-left"/>
