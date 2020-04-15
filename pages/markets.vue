@@ -57,9 +57,6 @@ export default {
         id: 'upbitsg',
         url: 'https://sg.upbit.com/home'
       }, {
-        id: 'einstein',
-        url: 'https://einstein.exchange/'
-      }, {
         id: 'litebit',
         url: 'https://www.litebit.eu/en'
       }, {
@@ -69,8 +66,11 @@ export default {
         id: 'xchange',
         url: 'https://xchange.me/'
       }, {
-        id: 'cryptofacil',
-        url: 'https://en.cryptofacil.com/'
+        id: 'simpleswap',
+        url: 'https://simpleswap.io/'
+      }, {
+        id: 'stealthex',
+        url: 'https://stealthex.io/'
       }]
     }
   }
