@@ -236,7 +236,14 @@
       "title": "Cryptofacil",
       "text": "A Latin-America based exchange that has a partnership with Bittrex, Cryptofacil will extend Bittrex markets and trading technology to new customer-bases using local operations and compliance expertise."
     }
-  },
+    "simpleswap": {
+      "title": "SimpleSwap",
+      "text": "SimpleSwap allows users to exchange Bitcoin or altcoins for UBQ without required accounts or order books. They offer floating rate and fixed rate exchange."
+    }
+    "stealthex": {
+      "title": "StealthEX",
+      "text": "StealthEX is an accountless crypto exchange site that does not require signups or personal data. Exchange Bitcoin or 250+ altcoins for UBQ."
+},
   "wallets": {
     "desktop": "Desktop",
     "browser": "Browser",
