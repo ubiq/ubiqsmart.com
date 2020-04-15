@@ -10,7 +10,6 @@
         <b-nav-item to="/markets">{{ $t("navbar.markets")}}</b-nav-item>
         <b-nav-item to="/mining">{{ $t("navbar.mining") }}</b-nav-item>
         <b-nav-item to="/wallets">{{ $t("navbar.wallets")}}</b-nav-item>
-        <b-nav-item to="/team">{{ $t("navbar.team")}}</b-nav-item>
       </b-navbar-nav>
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
