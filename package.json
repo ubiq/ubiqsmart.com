@@ -24,7 +24,7 @@
     "core-js": "^2.6.5",
     "cross-env": "^5.2.0",
     "ethereumjs-util": "^6.1.0",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "nuxt-edge": "^2.4.0-25811407.6d8da0ed",
     "nuxt-fontawesome": "^0.3.0",
     "regenerator-runtime": "^0.13.2",
