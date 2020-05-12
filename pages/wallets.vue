@@ -93,7 +93,7 @@
               <hr/>
               <p>{{$t("wallets.guarda.text")}}</p>
               <b-row class="download">
-                <a href="https://guarda.co/" target="_blank" class="btn btn-secondary">{{ $t("wallets.guarda.download") }}</a>
+                <a href="https://guarda.com/" target="_blank" class="btn btn-secondary">{{ $t("wallets.guarda.download") }}</a>
                 <span class="platforms ml-auto">
                   <fa :icon="['fab', 'android']"/>
                   <fa :icon="['fab', 'chrome']" class="icon-left"/>
