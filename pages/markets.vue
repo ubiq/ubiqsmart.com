@@ -71,6 +71,9 @@ export default {
       }, {
         id: 'stealthex',
         url: 'https://stealthex.io/'
+      }, {
+        id: 'swapspace',
+        url: 'https://swapspace.co/'
       }]
     }
   }
