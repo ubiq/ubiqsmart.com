@@ -42,7 +42,7 @@
             </div>
           </b-col>
         </b-row>
-
+        <!--
         <b-row class="wallet-section" no-gutters>
           <b-col md="6">
             <div class="section-content content-odd">
@@ -63,7 +63,7 @@
             </div>
           </b-col>
         </b-row>
-
+      -->
         <b-row class="wallet-section-dark" no-gutters>
           <b-col md="6">
             <div class="wallet-image d-none d-md-flex">
