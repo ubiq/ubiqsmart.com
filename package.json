@@ -33,12 +33,12 @@
     "vue-clipboard2": "^0.2.1",
     "vue-i18n": "^8.4.0",
     "vue-markdown": "^2.2.4",
-    "vue-server-renderer": "^2.6.11",
+    "vue-server-renderer": "^2.6.12",
     "vue-template-compiler": "^2.6.11",
     "x-particles": "^1.0.9"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "nodemon": "^2.0.3",
     "sass-loader": "^7.1.0",
     "tar": "^4.4.8"
