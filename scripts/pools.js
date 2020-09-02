@@ -1,6 +1,5 @@
 // submit PR adding your pool here to have it displayed on website.
 const pools = [
-  
   {
     name: 'CLONA',
     url: 'https://ubiq.clona.ru/'
@@ -8,26 +7,27 @@ const pools = [
   {
     name: 'UBQ GOMINE.PRO',
     url: 'https://ubiq.gomine.pro/'
-  }, {
+  },
+  {
     name: 'AltPool',
     url: 'http://ubq.altpool.pro'
-  }, 
+  },
   {
     name: 'ZET',
     url: 'https://ubq.zet-tech.eu'
-  }, 
+  },
   {
     name: 'UbiqPool.io',
     url: 'https://ubiqpool.io'
-  }, 
+  },
   {
     name: 'WATTPOOL',
     url: 'https://ubiq.wattpool.net'
-  }, 
+  },
   {
     name: 'MyPool',
     url: 'https://ubq.mypool.online'
-  }, 
+  },
   {
     name: 'MaxHash',
     url: 'https://ubiqpool.maxhash.org'
