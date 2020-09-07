@@ -24,7 +24,7 @@
         <b-nav-item-dropdown  right>
           <span slot="button-content">{{ $t("navbar.social") }}</span>
           <b-dropdown-header>Official</b-dropdown-header>
-          <b-dropdown-item href="https://discord.gg/HF6vEGF" target="_blank"><fa :icon="['fab', 'discord']"/> Discord</b-dropdown-item>
+          <b-dropdown-item href="https://discord.gg/XaqzJB4" target="_blank"><fa :icon="['fab', 'discord']"/> Discord</b-dropdown-item>
           <b-dropdown-item href="https://twitter.com/ubiqsmart" target="_blank"><fa :icon="['fab', 'twitter']"/> Twitter</b-dropdown-item>
           <b-dropdown-item href="https://github.com/ubiq/" target="_blank"><fa :icon="['fab', 'github']"/> Github</b-dropdown-item>
           <b-dropdown-header>Community Driven</b-dropdown-header>
