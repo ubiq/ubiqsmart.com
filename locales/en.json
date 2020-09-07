@@ -12,7 +12,8 @@
     "mining": "MINING",
     "markets": "MARKETS",
     "social": "SOCIAL",
-    "team": "TEAM"
+    "team": "TEAM",
+    "sparrow": "SPARROW"
   },
   "home": {
     "catchPhrase": "Enterprise Stable. Transparent Governance.",
@@ -204,6 +205,9 @@
       "text": "<p>TREZOR is another hardware wallet device compatible with Ubiq. Like the Ledger, it can interface with Pyrus, MEW and Sparrow to securely manage balances and transfers, as well as interactions with smart contracts such as airdrops and UIP voting.</p><p>A guide to using a TREZOR with Ubiq can be found <a href='https://blog.ubiqsmart.com/ubiq-trezor-a-quick-guide-daa3003d55f6' target='_blank'>here</a>.</p>",
       "download": "Get Trezor"
     }
+  },
+  "sparrow": {
+    "title": "Install Sparrow"
   },
   "escher": {
     "navbar": {

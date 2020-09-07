@@ -13,6 +13,7 @@
       </b-navbar-nav>
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
+        <b-nav-item to="/sparrow">{{ $t("navbar.sparrow")}}</b-nav-item>
         <b-nav-item to="/escher">{{ $t("navbar.escher")}}</b-nav-item>
         <b-nav-item-dropdown  right>
           <span slot="button-content">{{ $t("navbar.info.title") }}</span>
