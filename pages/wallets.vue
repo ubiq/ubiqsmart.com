@@ -5,6 +5,40 @@
         <b-row class="wallet-section" no-gutters>
           <b-col md="6">
             <div class="section-content content-odd">
+              <h4>{{ $t("wallets.sparrow.title") }} ({{ $t("wallets.extension") }})</h4>
+              <hr/>
+              <span v-html="$t('wallets.sparrow.text')"/>
+              <b-row class="download">
+                <router-link to="/sparrow" class="btn btn-secondary">{{ $t("wallets.sparrow.download") }}</router-link>
+              </b-row>
+            </div>
+          </b-col>
+          <b-col md="6">
+            <div class="wallet-image">
+              <img id="sparrow-image" :src="require('~/assets/wallets/sparrow.jpg')"/>
+            </div>
+          </b-col>
+        </b-row>
+        <b-row class="wallet-section-dark" no-gutters>
+          <b-col md="6">
+            <div class="wallet-image d-none d-md-flex">
+              <img id="pyrus-image" :src="require('~/assets/wallets/pyrus.png')"/>
+            </div>
+          </b-col>
+          <b-col md="6">
+            <div class="section-content content-even">
+              <h4>{{ $t("wallets.pyrus.title") }} ({{ $t("wallets.browser") }})</h4>
+              <hr/>
+              <p>{{ $t("wallets.pyrus.text") }}</p>
+              <b-row class="download">
+                <a href="https://pyrus.ubiqsmart.com" target="_blank" class="btn btn-secondary">{{ $t("wallets.pyrus.download") }}</a>
+              </b-row>
+            </div>
+          </b-col>
+        </b-row>
+        <b-row class="wallet-section" no-gutters>
+          <b-col md="6">
+            <div class="section-content content-odd">
               <h4>{{ $t("wallets.fusion.title") }} ({{ $t("wallets.desktop") }})</h4>
               <hr/>
               <p>{{ $t("wallets.fusion.text") }}</p>
@@ -24,46 +58,6 @@
             </div>
           </b-col>
         </b-row>
-
-        <b-row class="wallet-section-dark" no-gutters>
-          <b-col md="6">
-            <div class="wallet-image d-none d-md-flex">
-              <img id="pyrus-image" :src="require('~/assets/wallets/pyrus.png')"/>
-            </div>
-          </b-col>
-          <b-col md="6">
-            <div class="section-content content-even">
-              <h4>{{ $t("wallets.pyrus.title") }} ({{ $t("wallets.browser") }})</h4>
-              <hr/>
-              <p>{{ $t("wallets.pyrus.text") }}</p>
-              <b-row class="download">
-                <a href="https://pyrus.ubiqsmart.com" target="_blank" class="btn btn-secondary">{{ $t("wallets.pyrus.download") }}</a>
-              </b-row>
-            </div>
-          </b-col>
-        </b-row>
-        <!--
-        <b-row class="wallet-section" no-gutters>
-          <b-col md="6">
-            <div class="section-content content-odd">
-              <h4>{{ $t("wallets.sparrow.title") }} ({{ $t("wallets.extension") }})</h4>
-              <hr/>
-              <span v-html="$t('wallets.sparrow.text')"/>
-              <b-row class="download">
-                <a href="https://chrome.google.com/webstore/detail/sparrow/jpaojkhpgnlemgnapadbomenipmljljp" target="_blank" class="btn btn-secondary">{{ $t("wallets.sparrow.download") }}</a>
-                <span class="platforms ml-auto">
-                  <fa :icon="['fab', 'chrome']"/>
-                </span>
-              </b-row>
-            </div>
-          </b-col>
-          <b-col md="6">
-            <div class="wallet-image">
-              <img id="sparrow-image" :src="require('~/assets/wallets/sparrow.jpg')"/>
-            </div>
-          </b-col>
-        </b-row>
-      -->
         <b-row class="wallet-section-dark" no-gutters>
           <b-col md="6">
             <div class="wallet-image d-none d-md-flex">

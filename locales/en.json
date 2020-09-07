@@ -177,8 +177,8 @@
     },
     "sparrow": {
       "title": "Sparrow",
-      "text": "<p>Sparrow creates endless possibilities within the Ubiq network by providing access to Dapps within your Chrome browser.</p><p>Enjoy the ability to create and manage your own identities and view Dapps transactions on the Ubiq network with a secure interface before you accept or decline payments and transactions.</p>",
-      "download": "Get Sparrow"
+      "text": "<p>An extension for accessing Ubiq enabled distributed applications, or 'Dapps' in your browser!</p><p>Sparrow also lets the user create and manage their own identities (via private keys, local client wallet and hardware wallets like Trezor™), so when a Dapp wants to perform a transaction and write to the blockchain, the user gets a secure interface to review the transaction, before approving or rejecting it.</p>",
+      "download": "Install Sparrow"
     },
     "dexwallet": {
       "title": "DexWallet",
