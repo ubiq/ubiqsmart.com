@@ -51,12 +51,6 @@ export default {
         id: 'changeangel',
         url: 'https://changeangel.io/'
       }, {
-        id: 'upbit',
-        url: 'https://upbit.com/home'
-      }, {
-        id: 'upbitsg',
-        url: 'https://sg.upbit.com/home'
-      }, {
         id: 'litebit',
         url: 'https://www.litebit.eu/en'
       }, {
