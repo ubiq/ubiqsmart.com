@@ -6,7 +6,7 @@ const pools = [
   },
   {
     name: 'UBQ GOMINE.PRO',
-    url: 'https://ubiq.gomine.pro/'
+    url: 'https://gomine.pro/pool/ubiq'
   },
   {
     name: 'AltPool',
