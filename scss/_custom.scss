@@ -114,6 +114,9 @@ a:hover {
 
 .image-odd {
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .section-content {
@@ -137,8 +140,8 @@ a:hover {
 }
 
 .section-dark {
-  padding-top: 75px;
-  margin-top: -65px;
+  padding-top: 25px;
+  margin-top: -20px;
   background-color: $grey4a;
 }
 
@@ -158,7 +161,8 @@ a:hover {
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
   .image-even {
-    display: block;
+    display: flex;
+    align-items: flex-end;
   }
   .section-content {
     text-align: left;
